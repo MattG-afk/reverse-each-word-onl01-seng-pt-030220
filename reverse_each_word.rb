@@ -1,6 +1,6 @@
 def reverse_each_word (sentence)
   sentences = []
   sentence.each do |topics|
-  sentences << "#{topics}"
+  sentences.reverse << "#{topics}"
 end
 end
